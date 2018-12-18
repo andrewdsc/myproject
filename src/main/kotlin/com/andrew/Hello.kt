@@ -9,6 +9,10 @@ fun main(args: Array<String>) {
 
 class Human {
     fun Hello(){ //如果不回傳任何值 也不用特別寫入void
-        print("Hello Kotlin")
+        var age = 19 //指定為Int
+        println("Hello Kotlin$age")
+        var weight = 66.5f
+        println("Hello Kotlin$weight")
+        var name : String //如果用var空值，要先給資料型態才不會有錯誤
     }
 }
